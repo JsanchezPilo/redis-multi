@@ -11,6 +11,6 @@ supports 'ubuntu'
 supports 'centos'
 supports 'redhat'
 
-depends 'apt'
+depends 'apt', '= 3.0.0'
 depends 'chef-sugar', '= 3.1.1'
 depends 'redisio', '~> 2.1'
